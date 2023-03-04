@@ -8,9 +8,12 @@
     <dimen name="start_button_margin_top">40dp</dimen>
 
     <!--Exercise Activity Dimens-->
+    <dimen name="fl_rest_view_size">100dp</dimen>
     <dimen name="fl_progress_bar_size">100dp</dimen>
-    <dimen name="fl_progress_bar_marginTop">10dp</dimen>
+    <dimen name="fl_rest_view_marginTop">10dp</dimen>
     <dimen name="inner_circle_size">60dp</dimen>
     <dimen name="timer_text_size">25sp</dimen>
+    <dimen name="tv_exercise_name_text_size">22sp</dimen>
+    <dimen name="fl_exercise_view_marginTop">10dp</dimen>
 
 </resources>
