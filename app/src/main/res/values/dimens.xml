@@ -15,5 +15,6 @@
     <dimen name="timer_text_size">25sp</dimen>
     <dimen name="tv_exercise_name_text_size">22sp</dimen>
     <dimen name="fl_exercise_view_marginTop">10dp</dimen>
+    <dimen name="upcoming_exercise_label_text_size">16sp</dimen>
 
 </resources>
