@@ -9,7 +9,9 @@ import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.View
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
 import eu.tutorials.workoutapp.R
+import eu.tutorials.workoutapp.adapters.ExerciseAdapter
 import eu.tutorials.workoutapp.models.ExerciseModel
 import eu.tutorials.workoutapp.utils.Constants
 import kotlinx.android.synthetic.main.activity_exercise.*
@@ -32,17 +34,27 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private var player:MediaPlayer?=null
 
+    private var exerciseAdapter:ExerciseAdapter?=null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_exercise)
 
         exerciseList=Constants.defaultExerciseList()
 
-        tts= TextToSpeech(this,this,)
+        tts= TextToSpeech(this,this)
 
         setupActionBar()
 
         setupRestView()
+
+        setupExerciseRecyclerView()
+    }
+
+    private fun setupExerciseRecyclerView(){
+        rvExercise.layoutManager=LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false)
+        exerciseAdapter= ExerciseAdapter(this,exerciseList!!)
+        rvExercise.adapter=exerciseAdapter
     }
 
     private fun setupActionBar(){

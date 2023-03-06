@@ -10,15 +10,15 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+  override fun onCreate(savedInstanceState: Bundle?) {
 
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+    super.onCreate(savedInstanceState)
+    setContentView(R.layout.activity_main)
 
-        flStart.setOnClickListener {
-            val intent = Intent(this, ExerciseActivity::class.java)
-            startActivity(intent)
-        }
+    flStart.setOnClickListener {
+      val intent = Intent(this, ExerciseActivity::class.java)
+      startActivity(intent)
     }
+  }
 
 }
