@@ -16,5 +16,16 @@
   <dimen name="tv_exercise_name_text_size">22sp</dimen>
   <dimen name="fl_exercise_view_marginTop">10dp</dimen>
   <dimen name="upcoming_exercise_label_text_size">16sp</dimen>
+  
+  <!--Finish Activity Dimens-->
+  <dimen name="tvEnd_marginTop">35dp</dimen>
+  <dimen name="tvEnd_text_size">35sp</dimen>
+  <dimen name="finish_screen_circle_button_size">150dp</dimen>
+  <dimen name="finish_screen_circle_button_marginTop">15dp</dimen>
+  <dimen name="finish_screen_done_image_size">50dp</dimen>
+  <dimen name="finish_screen_congrats_text_marginTop">25dp</dimen>
+  <dimen name="finish_screen_congrats_text_size">18sp</dimen>
+  <dimen name="finish_screen_finish_button_marginTop">35dp</dimen>
+  <dimen name="finish_screen_finish_button_text_size">18sp</dimen>
 
 </resources>
