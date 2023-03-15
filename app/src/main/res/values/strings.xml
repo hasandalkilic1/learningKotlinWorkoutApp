@@ -8,6 +8,12 @@
     <string name="exercise_timer_text">30</string>
     <string name="end">END</string>
     <string name="congratulations">Congratulations!</string>
-    <string name="finish_text">You have completed the workout.</string>
+    <string name="you_have_completed_the_workout">You have completed the workout.</string>
     <string name="finish">FINISH</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="this_ll_stop_your_workout_are_you_sure_you_want_to_exit">This will stop the workout. Are you sure you want to exit?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="bmi">BMI</string>
+    <string name="calculator">Calculator</string>
 </resources>

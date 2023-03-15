@@ -1,5 +1,6 @@
 package eu.tutorials.workoutapp.activities
 
+import android.app.Dialog
 import android.content.Intent
 import android.media.MediaPlayer
 import android.net.Uri
@@ -15,6 +16,7 @@ import eu.tutorials.workoutapp.adapters.ExerciseAdapter
 import eu.tutorials.workoutapp.models.ExerciseModel
 import eu.tutorials.workoutapp.utils.Constants
 import kotlinx.android.synthetic.main.activity_exercise.*
+import kotlinx.android.synthetic.main.dialog_custom_back_confirmation.*
 import java.lang.Exception
 import java.util.*
 import kotlin.collections.ArrayList
@@ -71,8 +73,12 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         }
 
         toolbar_exercise_activity.setNavigationOnClickListener {
-            onBackPressed()
+            customDialogForBackBtn()
         }
+    }
+
+    override fun onBackPressed() {
+        customDialogForBackBtn()
     }
 
     private fun setupRestView(){
@@ -103,6 +109,21 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         }
 
         setRestProgressBar()
+    }
+
+    private fun customDialogForBackBtn(){
+        val dialog=Dialog(this)
+        dialog.setContentView(R.layout.dialog_custom_back_confirmation)
+        dialog.setCanceledOnTouchOutside(false)
+        dialog.tvYes.setOnClickListener {
+            this@ExerciseActivity.finish()
+            dialog.dismiss()
+        }
+        dialog.tvNo.setOnClickListener {
+            dialog.dismiss()
+        }
+
+        dialog.show()
     }
 
     private fun setupExerciseView(){
