@@ -40,4 +40,17 @@
   <dimen name="dialog_button_marginEnd">10dp</dimen>
   <dimen name="dialog_button_text_size">16sp</dimen>
 
+  <!--BMI Activity Dimens-->
+  <dimen name="til_weight_and_height_margin">10dp</dimen>
+  <dimen name="et_weight_and_height_text_size">16sp</dimen>
+  <dimen name="BMI_result_content_padding">10dp</dimen>
+  <dimen name="BMI_result_content_marginTop">16dp</dimen>
+  <dimen name="BMI_result_text_size">16sp</dimen>
+  <dimen name="BMI_result_texts_marginTop">5dp</dimen>
+  <dimen name="BMI_result_value_text_size">18sp</dimen>
+  <dimen name="calculate_btn_margin">10dp</dimen>
+  <dimen name="calculate_btn_marginTop">35dp</dimen>
+  <dimen name="calculate_btn_text_size">18sp</dimen>
+
+
 </resources>

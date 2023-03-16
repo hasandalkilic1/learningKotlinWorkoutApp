@@ -16,4 +16,28 @@
     <string name="no">NO</string>
     <string name="bmi">BMI</string>
     <string name="calculator">Calculator</string>
+    <string name="weight_in_kg">WEIGHT (in kg)</string>
+    <string name="height_in_cm">HEIGHT (in cm)</string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="please_enter_valid_values">Please enter valid values.</string>
+    
+    <string name="very_severely_underweight">Very severely underweight</string>
+    <string name="you_really_need_to_take_better_care_of_yourself_You_are_too_skinny">You really need to take better care of yourself.You are too skinny!</string>
+    <string name="severely_underweight">Severely underweight</string>
+    <string name="you_really_need_to_take_better_care_of_yourself_You_are_skinny">You really need to take better care of yourself.You are skinny!</string>
+    <string name="underweight">Underweight</string>
+    <string name="you_really_need_to_take_better_care_of_yourself_You_are_little_bit_skinny">You really need to take better care of yourself.You are little bit skinny!</string>
+    <string name="normal">Normal</string>
+    <string name="congratulations_you_are_in_a_good_shape">Congratulations! You are in a good shape!</string>
+    <string name="overweight">Overweight</string>
+    <string name="you_really_need_to_take_care_of_your_yourself_Workout_maybe">You really need to take care of your yourself! Workout maybe!</string>
+    <string name="obese_class_moderately_obese">Obese Class | (Moderately obese)</string>
+    <string name="You_are_in_a_very_dangerous_condition_act_now">You are in a very dangerous condition! Act now!</string>
+    <string name="obese_class_severely_obese">Obese Class || (Severely obese)</string>
+    <string name="obese_class_very_severely_obese">Obese Class ||| (Very Severely obese)</string>
+
+
+
+
 </resources>
