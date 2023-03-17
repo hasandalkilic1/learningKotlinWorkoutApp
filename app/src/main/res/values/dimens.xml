@@ -51,6 +51,10 @@
   <dimen name="calculate_btn_margin">10dp</dimen>
   <dimen name="calculate_btn_marginTop">35dp</dimen>
   <dimen name="calculate_btn_text_size">18sp</dimen>
+  <dimen name="radio_group_margin">10dp</dimen>
+  <dimen name="radio_button_height">35dp</dimen>
+  <dimen name="radio_button_text_size">16sp</dimen>
+  <dimen name="us_unit_text_input_marginTop">10dp</dimen>
 
 
 </resources>

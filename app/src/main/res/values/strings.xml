@@ -37,6 +37,12 @@
     <string name="obese_class_severely_obese">Obese Class || (Severely obese)</string>
     <string name="obese_class_very_severely_obese">Obese Class ||| (Very Severely obese)</string>
 
+    <string name="metric_units">METRIC UNITS</string>
+    <string name="us_units">US UNITS</string>
+    <string name="feet">Feet</string>
+    <string name="inch">Inch</string>
+    <string name="weight_in_pound">WEIGHT (in pound)</string>
+
 
 
 
