@@ -6,9 +6,10 @@
   <dimen name="mImage_view_height">220dp</dimen>
   <dimen name="start_button_text_size">22sp</dimen>
   <dimen name="start_button_margin_top">40dp</dimen>
-  <dimen name="flBMI_size">70dp</dimen>
+  <dimen name="flBMI_flHistory_size">70dp</dimen>
   <dimen name="bmi_calculator_marginTop">5dp</dimen>
   <dimen name="bmi_calculator_text_size">22sp</dimen>
+  <dimen name="flHistory_btn_image_size">50dp</dimen>
 
   <!--Exercise Activity Dimens-->
   <dimen name="fl_rest_view_size">100dp</dimen>

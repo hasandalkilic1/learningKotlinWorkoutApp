@@ -21,7 +21,7 @@
     <string name="your_bmi">Your BMI</string>
     <string name="calculate">CALCULATE</string>
     <string name="please_enter_valid_values">Please enter valid values.</string>
-    
+
     <string name="very_severely_underweight">Very severely underweight</string>
     <string name="you_really_need_to_take_better_care_of_yourself_You_are_too_skinny">You really need to take better care of yourself.You are too skinny!</string>
     <string name="severely_underweight">Severely underweight</string>
@@ -43,7 +43,7 @@
     <string name="inch">Inch</string>
     <string name="weight_in_pound">WEIGHT (in pound)</string>
 
-
+    <string name="history">History</string>
 
 
 </resources>
